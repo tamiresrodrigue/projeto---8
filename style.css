@@ -1,0 +1,83 @@
+/* 1. RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+/*2. ESTILOS GERAIS*/
+bady{
+    font-family: 'segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.content{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-title{
+    align-items: center;
+    font-size: 2.2rem;
+    color: #3a3a40;
+    margin-bottom: 40px;
+}
+
+/* 3. LAYOUT DA SEÇÃO*/
+.testiminial-grids{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30PX;
+}
+/*4. ESTILO DO CAMPO DO DEPOIMNETO*/
+
+.testiminial-cards{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 350px;
+}
+/*5. ESTILOS DOS ELEMENTOS DENTRO DO CARD*/
+.testiminial-avatar{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #e9ecef;
+}
+
+.testimonial-quote{
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.6;
+    font-style: italic;
+    margin: 0;
+}
+
+.testiminial-author{
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #495057;
+}
+
+.testiminial-roler{
+    font-size: 0.9rem;
+    color: #adb5bd;
+    margin-top: 5px;
+}
